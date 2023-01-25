@@ -1,8 +1,10 @@
+import React from "react";
+import Game from "./components/Game"
 
 const App = () => {
   return (
     <div>
-      This will be the Memory Card Game
+      <Game />
     </div>
   );
 }
