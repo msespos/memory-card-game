@@ -1,4 +1,5 @@
 import { React, useState, useEffect } from "react";
+import Scores from "./Scores";
 import pattern01 from "../imgs/pattern01.jpg"
 import pattern02 from "../imgs/pattern02.jpg"
 import pattern03 from "../imgs/pattern03.jpg"
@@ -61,6 +62,7 @@ const Board = () => {
 
   return (
     <div>
+      <Scores score={score} bestScore={bestScore} />
       <img src={cardArray[0]} width={250} onClick={() => {takeTurn(cardArray[0]); shuffle(cardArray)}} />
       <img src={cardArray[1]} width={250} onClick={() => {takeTurn(cardArray[1]); shuffle(cardArray)}} />
       <img src={cardArray[2]} width={250} onClick={() => {takeTurn(cardArray[2]); shuffle(cardArray)}} />
