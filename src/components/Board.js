@@ -17,7 +17,10 @@ const Board = () => {
                                               pattern04, pattern05, pattern06,
                                               pattern07, pattern08, pattern09,
                                               pattern10, pattern11, pattern12,])
-  // shuffle function taken from
+  const [clickedArray, setClickedArray] = useState([]);
+  const [score, setScore] = useState(0);
+  const [bestScore, setBestScore] = useState(0);
+  // shuffle function adapted from
   // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
   const shuffle = (array) => {
     for (let i = array.length - 1; i > 0; i--) {
@@ -27,21 +30,44 @@ const Board = () => {
     setCardArray([...array]);
   }
 
+  const record = (card) => {
+    // if the card has already been clicked
+    if (clickedArray.includes(card)) {
+      // set the new best score if there is one
+      if (score > bestScore) {
+        setBestScore(score);
+      }
+      // set the current score to 0
+      setScore(0);
+      // reset the clicked array
+      setClickedArray([]);
+    } else {
+      // add the card to the clicked array
+      setClickedArray(clickedArray.concat(card));
+      // increment the score
+      setScore(score + 1);
+    }
+    console.log("current score", score);
+    console.log("best score", bestScore);
+    console.log("clicked array", clickedArray);
+    console.log("card", card)
+  }
+
   return (
     <div>
-      <img src={cardArray[0]} width={250} onClick={() => shuffle(cardArray)} />
-      <img src={cardArray[1]} width={250} onClick={() => shuffle(cardArray)} />
-      <img src={cardArray[2]} width={250} onClick={() => shuffle(cardArray)} />
-      <img src={cardArray[3]} width={250} onClick={() => shuffle(cardArray)} />
-      <img src={cardArray[4]} width={250} onClick={() => shuffle(cardArray)} />
-      <img src={cardArray[5]} width={250} onClick={() => shuffle(cardArray)} />
-      <img src={cardArray[6]} width={250} onClick={() => shuffle(cardArray)} />
-      <img src={cardArray[7]} width={250} onClick={() => shuffle(cardArray)} />
-      <img src={cardArray[8]} width={250} onClick={() => shuffle(cardArray)} />
-      <img src={cardArray[9]} width={250} onClick={() => shuffle(cardArray)} />
-      <img src={cardArray[10]} width={250} onClick={() => shuffle(cardArray)} />
-      <img src={cardArray[11]} width={250} onClick={() => shuffle(cardArray)} />
-      <img src={cardArray[12]} width={250} onClick={() => shuffle(cardArray)} />
+      <img src={cardArray[0]} width={250} onClick={() => {record(cardArray[0]); shuffle(cardArray)}} />
+      <img src={cardArray[1]} width={250} onClick={() => {record(cardArray[1]); shuffle(cardArray)}} />
+      <img src={cardArray[2]} width={250} onClick={() => {record(cardArray[2]); shuffle(cardArray)}} />
+      <img src={cardArray[3]} width={250} onClick={() => {record(cardArray[3]); shuffle(cardArray)}} />
+      <img src={cardArray[4]} width={250} onClick={() => {record(cardArray[4]); shuffle(cardArray)}} />
+      <img src={cardArray[5]} width={250} onClick={() => {record(cardArray[5]); shuffle(cardArray)}} />
+      <img src={cardArray[6]} width={250} onClick={() => {record(cardArray[6]); shuffle(cardArray)}} />
+      <img src={cardArray[7]} width={250} onClick={() => {record(cardArray[7]); shuffle(cardArray)}} />
+      <img src={cardArray[8]} width={250} onClick={() => {record(cardArray[8]); shuffle(cardArray)}} />
+      <img src={cardArray[9]} width={250} onClick={() => {record(cardArray[9]); shuffle(cardArray)}} />
+      <img src={cardArray[10]} width={250} onClick={() => {record(cardArray[10]); shuffle(cardArray)}} />
+      <img src={cardArray[11]} width={250} onClick={() => {record(cardArray[11]); shuffle(cardArray)}} />
+      <img src={cardArray[12]} width={250} onClick={() => {record(cardArray[12]); shuffle(cardArray)}} />
     </div>
   )
 }
