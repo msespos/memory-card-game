@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.f8c199ac.css",
-    "main.js": "/react-gh-pages/static/js/main.bbbeba7f.js",
-    "static/media/pattern09.jpg": "/react-gh-pages/static/media/pattern09.dc518b88f719a5f611d8.jpg",
-    "static/media/pattern05.jpg": "/react-gh-pages/static/media/pattern05.fbe9a9d48e11e38b11f0.jpg",
-    "static/media/pattern06.jpg": "/react-gh-pages/static/media/pattern06.7a8bd9c8a92dc461429e.jpg",
-    "static/media/pattern01.jpg": "/react-gh-pages/static/media/pattern01.d3f63f3f6cc599118b31.jpg",
-    "static/media/pattern07.jpg": "/react-gh-pages/static/media/pattern07.7e981ab90e440677a001.jpg",
-    "static/media/pattern03.jpg": "/react-gh-pages/static/media/pattern03.a8e216bb8b1bf0bfd612.jpg",
-    "static/media/pattern08.jpg": "/react-gh-pages/static/media/pattern08.19c1368ccfbb7d702976.jpg",
-    "static/media/pattern04.jpg": "/react-gh-pages/static/media/pattern04.5797921b17b0bb54f005.jpg",
-    "static/media/pattern02.jpg": "/react-gh-pages/static/media/pattern02.3fbea5cb3834fbfc65d3.jpg",
-    "static/media/pattern12.jpg": "/react-gh-pages/static/media/pattern12.b1e10fb2ea340ad3f3b7.jpg",
-    "static/media/pattern10.jpg": "/react-gh-pages/static/media/pattern10.d9544622ef39d366b34b.jpg",
-    "static/media/pattern11.jpg": "/react-gh-pages/static/media/pattern11.22b868cd287c7a8ba2ec.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.f8c199ac.css.map": "/react-gh-pages/static/css/main.f8c199ac.css.map",
-    "main.bbbeba7f.js.map": "/react-gh-pages/static/js/main.bbbeba7f.js.map"
+    "main.css": "/memory-card-game/static/css/main.f8c199ac.css",
+    "main.js": "/memory-card-game/static/js/main.74e7b57d.js",
+    "static/media/pattern09.jpg": "/memory-card-game/static/media/pattern09.dc518b88f719a5f611d8.jpg",
+    "static/media/pattern05.jpg": "/memory-card-game/static/media/pattern05.fbe9a9d48e11e38b11f0.jpg",
+    "static/media/pattern06.jpg": "/memory-card-game/static/media/pattern06.7a8bd9c8a92dc461429e.jpg",
+    "static/media/pattern01.jpg": "/memory-card-game/static/media/pattern01.d3f63f3f6cc599118b31.jpg",
+    "static/media/pattern07.jpg": "/memory-card-game/static/media/pattern07.7e981ab90e440677a001.jpg",
+    "static/media/pattern03.jpg": "/memory-card-game/static/media/pattern03.a8e216bb8b1bf0bfd612.jpg",
+    "static/media/pattern08.jpg": "/memory-card-game/static/media/pattern08.19c1368ccfbb7d702976.jpg",
+    "static/media/pattern04.jpg": "/memory-card-game/static/media/pattern04.5797921b17b0bb54f005.jpg",
+    "static/media/pattern02.jpg": "/memory-card-game/static/media/pattern02.3fbea5cb3834fbfc65d3.jpg",
+    "static/media/pattern12.jpg": "/memory-card-game/static/media/pattern12.b1e10fb2ea340ad3f3b7.jpg",
+    "static/media/pattern10.jpg": "/memory-card-game/static/media/pattern10.d9544622ef39d366b34b.jpg",
+    "static/media/pattern11.jpg": "/memory-card-game/static/media/pattern11.22b868cd287c7a8ba2ec.jpg",
+    "index.html": "/memory-card-game/index.html",
+    "main.f8c199ac.css.map": "/memory-card-game/static/css/main.f8c199ac.css.map",
+    "main.74e7b57d.js.map": "/memory-card-game/static/js/main.74e7b57d.js.map"
   },
   "entrypoints": [
     "static/css/main.f8c199ac.css",
-    "static/js/main.bbbeba7f.js"
+    "static/js/main.74e7b57d.js"
   ]
 }
