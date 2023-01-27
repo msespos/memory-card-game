@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from "react";
 import Scores from "./Scores";
 import ResetButton from "./ResetButton"
+import Attribution from "./Attribution";
 import pattern01 from "../imgs/pattern01.jpg"
 import pattern02 from "../imgs/pattern02.jpg"
 import pattern03 from "../imgs/pattern03.jpg"
@@ -66,6 +67,7 @@ const Board = () => {
           />
         ))
       }
+      <Attribution />
     </div>
   )
 }

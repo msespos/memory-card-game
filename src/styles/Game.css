@@ -8,6 +8,10 @@ img {
   vertical-align: middle;
 }
 
+h3 {
+  font-size: small;
+}
+
 .container {
   max-width: 800px;
   margin: auto;
