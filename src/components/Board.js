@@ -60,7 +60,7 @@ const Board = () => {
       {
         numArray.map((number, index) => (
           <img src={cardArray[number]}
-               width={250}
+               width={200}
                onClick={() => {takeTurn(cardArray[number]); shuffle(cardArray)}}
                key={index}
           />
