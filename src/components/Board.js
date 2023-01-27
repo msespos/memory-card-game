@@ -53,10 +53,10 @@ const Board = () => {
 
   return (
     <div>
-      <Scores score={score} bestScore={bestScore} />
       <ResetButton score={score} bestScore={bestScore}
                    setScore={setScore} setBestScore={setBestScore}
                    shuffle={shuffle} cardArray={cardArray} />
+      <Scores score={score} bestScore={bestScore} />
       {
         numArray.map((number, index) => (
           <img src={cardArray[number]}
@@ -65,7 +65,7 @@ const Board = () => {
                key={index}
           />
         ))
-      };
+      }
     </div>
   )
 }
