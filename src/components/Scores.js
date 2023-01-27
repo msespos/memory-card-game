@@ -4,14 +4,14 @@ const Scores = (props) => {
   if (props.score === 12) {
     return (
       <div>
-        YOU WON!
+        <h1>YOU WON! CLICK AGAIN TO START OVER</h1>
       </div>
     )
   } else {
     return (
       <div>
-        SCORE:{props.score}<br></br>
-        BEST SCORE:{props.bestScore}
+        <h2>SCORE: {props.score}</h2>
+        <h2>HIGH SCORE: {props.bestScore}</h2>
       </div>
     )
   }
