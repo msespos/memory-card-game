@@ -1,0 +1,16 @@
+* {
+  background-color: lightgray;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
