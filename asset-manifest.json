@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.d497f254.css",
-    "main.js": "/react-gh-pages/static/js/main.8d602085.js",
+    "main.css": "/react-gh-pages/static/css/main.f8c199ac.css",
+    "main.js": "/react-gh-pages/static/js/main.bbbeba7f.js",
     "static/media/pattern09.jpg": "/react-gh-pages/static/media/pattern09.dc518b88f719a5f611d8.jpg",
     "static/media/pattern05.jpg": "/react-gh-pages/static/media/pattern05.fbe9a9d48e11e38b11f0.jpg",
     "static/media/pattern06.jpg": "/react-gh-pages/static/media/pattern06.7a8bd9c8a92dc461429e.jpg",
@@ -15,11 +15,11 @@
     "static/media/pattern10.jpg": "/react-gh-pages/static/media/pattern10.d9544622ef39d366b34b.jpg",
     "static/media/pattern11.jpg": "/react-gh-pages/static/media/pattern11.22b868cd287c7a8ba2ec.jpg",
     "index.html": "/react-gh-pages/index.html",
-    "main.d497f254.css.map": "/react-gh-pages/static/css/main.d497f254.css.map",
-    "main.8d602085.js.map": "/react-gh-pages/static/js/main.8d602085.js.map"
+    "main.f8c199ac.css.map": "/react-gh-pages/static/css/main.f8c199ac.css.map",
+    "main.bbbeba7f.js.map": "/react-gh-pages/static/js/main.bbbeba7f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d497f254.css",
-    "static/js/main.8d602085.js"
+    "static/css/main.f8c199ac.css",
+    "static/js/main.bbbeba7f.js"
   ]
 }
