@@ -36,20 +36,14 @@ const Board = () => {
   }
 
   const takeTurn = (card) => {
-    // if the card has not already been clicked
     if (!clickedArray.includes(card)) {
-      // add the card to the clicked images array
       setClickedArray(clickedArray.concat(card));
-      // increment the score
       setScore(score + 1);
     } else {
-      // set the new best score if there is one
       if (score > bestScore) {
         setBestScore(score);
       }
-      // set the current score to 0
       setScore(0);
-      // reset the clicked images array
       setClickedArray([]);
     }
   }
