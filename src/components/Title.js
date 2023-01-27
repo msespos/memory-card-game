@@ -3,7 +3,7 @@ import React from "react";
 const Title = () => {
   return (
     <div>
-      PATTERN PICKER
+      <p>PATTERN PICKER</p>
     </div>
   )
 }
