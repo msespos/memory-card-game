@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from "react";
 import Scores from "./Scores";
+import ResetButton from "./ResetButton"
 import pattern01 from "../imgs/pattern01.jpg"
 import pattern02 from "../imgs/pattern02.jpg"
 import pattern03 from "../imgs/pattern03.jpg"
@@ -53,6 +54,9 @@ const Board = () => {
   return (
     <div>
       <Scores score={score} bestScore={bestScore} />
+      <ResetButton score={score} bestScore={bestScore}
+                   setScore={setScore} setBestScore={setBestScore}
+                   shuffle={shuffle} cardArray={cardArray} />
       {
         numArray.map((number, index) => (
           <img src={cardArray[number]}
