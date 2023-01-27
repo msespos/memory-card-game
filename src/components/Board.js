@@ -55,7 +55,11 @@ const Board = () => {
       <Scores score={score} bestScore={bestScore} />
       {
         numArray.map((number, index) => (
-          <img src={cardArray[number]} width={250} onClick={() => {takeTurn(cardArray[number]); shuffle(cardArray)}} />
+          <img src={cardArray[number]}
+               width={250}
+               onClick={() => {takeTurn(cardArray[number]); shuffle(cardArray)}}
+               key={index}
+          />
         ))
       };
     </div>
