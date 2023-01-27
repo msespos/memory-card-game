@@ -1,3 +1,15 @@
+# Memory Card Game
+
+This project is a small game to test your memory. Try to click on a different pattern each time. If you make it to all 12 patterns, you've won!
+
+Play it here: https://github.com/msespos/memory-card-game
+
+This was created with React as an exercise in working with functional components, state and hooks. It is an Odin project project.
+
+Have fun!
+
+## Standard Create React App info follows
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
