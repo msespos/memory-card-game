@@ -6,6 +6,7 @@ const ResetButton = (props) => {
       props.setBestScore(props.score);
     }
     props.setScore(0);
+    props.setLastScore(0);
     props.shuffle(props.cardArray);
   }
   return (

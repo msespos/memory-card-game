@@ -57,7 +57,7 @@ const Board = () => {
   return (
     <div>
       <ResetButton score={score} bestScore={bestScore}
-                   setScore={setScore} setBestScore={setBestScore}
+                   setScore={setScore} setLastScore={setLastScore} setBestScore={setBestScore}
                    shuffle={shuffle} cardArray={cardArray} />
       <Scores score={score} lastScore={lastScore} bestScore={bestScore} />
       {
