@@ -22,6 +22,7 @@ const Board = () => {
                                               pattern10, pattern11, pattern12,])
   const [clickedArray, setClickedArray] = useState([]);
   const [score, setScore] = useState(0);
+  const [lastScore, setLastScore] = useState(0);
   const [bestScore, setBestScore] = useState(0);
   useEffect(() => {
     shuffle(cardArray);
@@ -45,6 +46,7 @@ const Board = () => {
       if (score > bestScore) {
         setBestScore(score);
       }
+      setLastScore(score);
       setScore(0);
       setClickedArray([]);
     }
@@ -57,7 +59,7 @@ const Board = () => {
       <ResetButton score={score} bestScore={bestScore}
                    setScore={setScore} setBestScore={setBestScore}
                    shuffle={shuffle} cardArray={cardArray} />
-      <Scores score={score} bestScore={bestScore} />
+      <Scores score={score} lastScore={lastScore} bestScore={bestScore} />
       {
         numArray.map((number, index) => (
           <img src={cardArray[number]}
