@@ -1,6 +1,6 @@
 # Memory Card Game
 
-This project is a small game to test your memory. Try to click on a different pattern each time. If you make it to all 12 patterns, you've won!
+This project is a small game to test your memory. Try to click on a different pattern each time. If you click on all 12 patterns without any repeats, you've won!
 
 Play it here: https://github.com/msespos/memory-card-game
 
