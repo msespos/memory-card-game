@@ -4,7 +4,7 @@ This project is a small game to test your memory. Try to click on a different pa
 
 Play it here: https://github.com/msespos/memory-card-game
 
-This was created with React as an exercise in working with functional components, state and hooks. It is an Odin project project.
+This was created with React as an exercise in working with functional components, state and hooks. It is an Odin Project project.
 
 Have fun!
 
